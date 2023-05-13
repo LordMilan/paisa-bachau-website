@@ -18,7 +18,7 @@
 }
 
 .icon{
-    width: 180px;
+    width: 130px;
     float: left;
     height: 20px;
 }
@@ -29,14 +29,15 @@
     font-family: 'Times New Roman';
     padding-left: 20px;
     float: left;
-    padding-top: 5px;
-    margin-top: 5px
+    padding-top: 0px;
+    margin-top: 0px
 }
 
 .menu{
     width: 400px;
-    float: left;
-    height: 70px;
+    margin-right: -100px;
+    float: right;
+    height: 10px;
 }
 
 ul{
@@ -49,8 +50,8 @@ ul{
 ul li{
     list-style: none;
     margin-left: 62px;
-    margin-top: 27px;
-    font-size: 16px;
+    margin-top: 40px;
+    font-size: 20px;
 }
 
 ul li a{
@@ -65,15 +66,15 @@ ul li a:hover{
     color: #e67c26;
 }
 
-.search{
-    width: 330px;
-    float: left;
-    margin-left: 270px;
-}
-
-.srch{
+.search {
+    width: 660px;
+    margin-top: 50px;
+    margin-left: 30px; /* adjust the margin to position the search and button */
+  }
+  
+  .srch {
     font-family: 'Times New Roman';
-    width: 200px;
+    width: 540px; /* increase the width of the search input */
     height: 40px;
     background: rgb(230, 215, 196);
     border: 1px solid #ff7200;
@@ -85,9 +86,9 @@ ul li a:hover{
     padding: 10px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-}
-
-.btn{
+  }
+  
+  .btn {
     width: 100px;
     height: 40px;
     background: #ff7200;
@@ -96,21 +97,25 @@ ul li a:hover{
     color: #fff;
     font-size: 15px;
     border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
     transition: 0.2s ease;
     cursor: pointer;
-}
-.btn:hover{
+    float: left;
+    margin-left: -1px; /* adjust the margin to position the button next to the input */
+  }
+  
+  .btn:hover {
     color: #000;
-}
-
-.btn:focus{
+  }
+  
+  .btn:focus {
     outline: none;
-}
-
-.srch:focus{
+  }
+  
+  .srch:focus {
     outline: none;
-}
+  }
+  
 
 .content{
     width: 1200px;
@@ -121,7 +126,7 @@ ul li a:hover{
 }
 
 .content .par{
-    padding-left: 20px;
+    padding-left: 30px;
     padding-bottom: 15px;
     font-family: 'Times New Roman';
     letter-spacing: 1.3px;
@@ -166,20 +171,8 @@ ul li a:hover{
     color: #e67c26;
     font-size: 50px
 }
-.icon img {
-    animation: spinLogo 3s linear infinite;
-}
 
-@keyframes spinLogo {
-    0% {
-        transform: rotate(0);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
 .icon img{
-    width:69px;
-    height:80px;
+    width:170px;
+    height:160px;
 }
