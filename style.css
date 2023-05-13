@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(46, 42, 42, 0.5)50%,rgba(0,0,0,0.5)50%), url(goldmoney.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 180px;
+    float: left;
+    height: 20px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 60px;
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    float: left;
+    padding-top: 5px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #e67c26;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: rgb(230, 215, 196);
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #1a1414;
+    border-right: none;
+    font-size: 19px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fcfafa;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-family: 'Times New Roman';
+    letter-spacing: 1.3px;
+    line-height: 28px;
+    font-size: 21px;
+}
+
+.content h1{
+    font-family: Georgia, 'Times New Roman';
+    font-size: 50px;
+    padding-left: 30px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    padding-bottom: 12px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 19px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #e67c26;
+    font-size: 50px
+}
+.icon img {
+    animation: spinLogo 3s linear infinite;
+}
+
+@keyframes spinLogo {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.icon img{
+    width:69px;
+    height:80px;
+}
