@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     //For Daraz
     // send POST request to localhost:5000/search with search keyword as the request body
-    fetch('http://localhost:5000/api/data', {
+    fetch('https://api.milanmahat.com.np/api/data', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
