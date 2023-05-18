@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="./popup.js"></script>
+
     <title>Webpage Design</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -23,31 +25,70 @@
         </div>
       </div>
       <div class="content">
-        <h1>Paisa Bachau<br /><span>Save your Money</span> <br />And Time</h1>
+        <h1><span>Save your Money</span></h1>
+        <br /><h2>And Time</h2>
         <p class="par">
           Your ultimate destination for finding the lowest prices across all
           major shopping websites. <br />
           With our advanced algorithms and real-time data updates, you can
           easily navigate through a vast range of products and discover the best
-          bargains available
+          bargains available.
         </p>
-        <!-- 
-                <button class="cn"><a href="#">JOIN US</a></button>
 
-               
-                    </div>
-                </div> -->
-        <div class="search">
-          <input
-            class="srch"
-            type="search"
-            name=""
-            placeholder="Type To text"
-          />
-          <a href="#"> <button class="btn">Search</button></a>
+
+       <form id="myForm">
+        <div
+          class="outer-search-box">
+          <div
+            class="inner-searchbox"
+           >
+            <input
+              type="text"
+              placeholder="Your Product Name"
+              class="product-input"
+              id="myInput" 
+              name="myInput" required
+            />
+            <input
+              type="number"
+              placeholder="Minimum Price"
+              class="minimum-input"
+              id="minPrice" 
+              name="minPrice" required
+            />
+            <input
+              type="number"
+              placeholder="Maximum Price"
+              class="maximum-input"
+              id="maxPrice" 
+              name="maxPrice" required
+            />
+            <div
+            class="sortby"
+             >
+              <!-- <label for="sortSelect">Sort by Price:</label> -->
+              <select id="sortSelect">
+                <option value="lowToHigh">Low to High</option>
+                <option value="highToLow">High to Low</option>
+              </select>
+              </div>
+            <div
+              data-node-id="bcfaebeb-2d61-42ea-ab1a-06ae5c1022d3"
+              data-type="div"
+              class=""
+            >
+            <!-- <a href="#"> <button type="submit" class="btn" >Search</button></a> -->
+            <button type="submit" class="btn" >Search</button>
+
+          </div>
+
+          </div>
         </div>
-      </div>
+      </form>
     </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <div class="products">
+    <p id="daraz_product"></p>
+    </div>
   </body>
 </html>
